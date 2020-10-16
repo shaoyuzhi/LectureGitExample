@@ -4,6 +4,13 @@ public class ItemToPurchase {
 	String itemName;
 	int itemPrice;
 	int itemQuantity;
+	
+	ItemToPurchase(String itemName, int itemPrice, int itemQuantity){
+		this.itemName = itemName;
+		this.itemPrice = itemPrice;
+		this.itemQuantity = itemQuantity;
+	}
+	
 	public String getItemName() {
 		return itemName;
 	}
